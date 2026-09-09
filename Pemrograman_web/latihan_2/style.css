@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:#333;
+    background-color: rgb(12, 204, 194);
+}
+
+p{
+    color: #ab0707;
+    font-size: 18px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(75, 21, 235, 0.15);
+}
+
+td{
+    padding: 10px 30px;
+    text-align: left ;
+    border: 1px solid #000000;
+    background-color: #f6fffd;
+}
+
+thead{
+    padding: 15px 25px;
+    text-align: left ;
+    border: 2px solid #000000;
+    background-color: #009879;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: greenyellow;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #333;
+}
+
+.text-biru{
+    color: blue;
+}
+
+.tebal{
+    color: blue;
+}
+
+#judul{
+    color: #00ff33;
+    text-align: center;
+    font-size: 30px;
+}
+
+#kotak-utama{
+    width: 300px;
+    height: 150px;
+    background-color: #00ff33;
+    border: 2px solid greenyellow;
+    padding: 30px;
+}
+
+.tombol{
+    display: inline-block;
+    padding: 30px;
+    background-color: aquamarine;
+    color: aqua;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.tombol:hover{
+    background-color: #00ff33;
+    transform: scale(1.1);
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid blueviolet;
+    background-color: #009879;
+}
+
+.tombol:active{
+    background-color: #001eff;
+    transform: scale(0.9);
+}
+
+#text{
+    color: #001eff;
+}
